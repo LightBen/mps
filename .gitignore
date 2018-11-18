@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-/slides
+**/slides/
 
 # local env files
 .env.local
