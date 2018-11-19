@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
+
+html { height: 100vh; overflow: hidden; }
+body { font-family: 'Raleway', sans-serif; font-weight: 300; margin: 0; }
+
+@font-face {
+    font-family: 'Shofar';
+    src: url('assets/fonts/ShofarRegular.ttf') format('truetype');
+}
+
+/* LANGUAGES */
+.he, .en, .fr { display: none; }
+
+#app.he, #app.en, #app.fr, 
+.he .he, .en .en, .fr .fr { 
+    display: block; 
+}
+.he .he { direction: rtl; font-family: 'Shofar', Tahoma, sans-serif; }
+/* LANGUAGES */
+
+.btn-auto { min-width: auto; margin: 0; }

@@ -1,11 +1,11 @@
 <template>
-    <div class="home">
+    <div class="page home">
         <Slider></Slider>
     </div>
 </template>
 
 <script>
-    import Slider from '@/components/Slider'
+    import Slider from '@/components/slider/Slider.vue'
     
     export default {
         name: 'Home',
