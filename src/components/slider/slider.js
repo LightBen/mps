@@ -1851,7 +1851,7 @@ export default {
                     }
                 },
                 {
-                    cssClass: 'special end galaxy no-lang-desc',
+                    cssClass: 'special end galaxy no-lang-title no-lang-desc',
                     special: {
                         title: {
                             he: "סוף פרק שירה",
