@@ -5,7 +5,7 @@
                 <span>My Perek Shira</span>
             </v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn flat href="#" class="btn-auto btn-lang">
+            <v-btn flat href="#" class="btn-auto btn-lang" style="display: none !important;">
                 <v-icon>language</v-icon>
             </v-btn>
         </v-toolbar>

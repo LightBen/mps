@@ -1,7 +1,7 @@
 .slick-slide { width: 100vw !important; }
 
 .slide {
-    height: 100vh; width: 100vw !important; color: #fff; padding: 100px 0;
+    height: 100vh; width: 100vw !important; color: #fff; padding-inline: 0;
     figure { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; margin: 0; background: no-repeat center/cover; }
     .slide-texts { position: relative; z-index: 1; padding: 30px; background-color: rgba(0, 0, 0, 0.5); text-align: center; width: 100%; max-width: 600px; margin: 0 auto; font-size: 30px; max-height: 100%; overflow-y: auto; }
     .slide-text + .slide-text { margin-top: 20px; }
@@ -36,280 +36,288 @@
 }
 
 /* SLIDES */
-.sky figure { background-image: url(../../assets/img/slides/slides-xs/1-01-sky.jpg); }
-.earth figure { background-image: url(../../assets/img/slides/slides-xs/1-02-earth.jpg); }
-.eden figure { background-image: url(../../assets/img/slides/slides-xs/1-03-eden.jpg); }
-.guehinom figure { background-image: url(../../assets/img/slides/slides-xs/1-04-guehinom.jpg); }
-.desert figure { background-image: url(../../assets/img/slides/slides-xs/1-05-desert.jpg); }
-.fields figure { background-image: url(../../assets/img/slides/slides-xs/1-06-fields.jpg); }
-.water figure { background-image: url(../../assets/img/slides/slides-xs/1-07-water.jpg); }
-.seas figure { background-image: url(../../assets/img/slides/slides-xs/1-08-seas.jpg); }
-.river figure { background-image: url(../../assets/img/slides/slides-xs/1-09-river.jpg); }
-.spring-water figure { background-image: url(../../assets/img/slides/slides-xs/1-10-spring-water.jpg); }
+.galaxy figure { background-image: url(~@/assets/img/slides/slides-xs/galaxy-milky-way.jpg); }
 
-.day figure { background-image: url(../../assets/img/slides/slides-xs/2-01-day.jpg); }
-.night figure { background-image: url(../../assets/img/slides/slides-xs/2-02-night.jpg); }
-.sun figure { background-image: url(../../assets/img/slides/slides-xs/2-03-sun.jpg); }
-.moon figure { background-image: url(../../assets/img/slides/slides-xs/2-04-moon.jpg); }
-.stars figure { background-image: url(../../assets/img/slides/slides-xs/2-05-stars.jpg); }
-.clouds figure { background-image: url(../../assets/img/slides/slides-xs/2-06-clouds.jpg); }
-.glory-clouds figure { background-image: url(../../assets/img/slides/slides-xs/2-07-glory-clouds.jpg); }
-.wind figure { background-image: url(../../assets/img/slides/slides-xs/2-08-wind.jpg); }
-.lightnings figure { background-image: url(../../assets/img/slides/slides-xs/2-09-lightnings.jpg); }
-.dew figure { background-image: url(../../assets/img/slides/slides-xs/2-10-dew.jpg); }
-.rain figure { background-image: url(../../assets/img/slides/slides-xs/2-11-rain.jpg); }
+.sky figure { background-image: url(~@/assets/img/slides/slides-xs/1-01-sky.jpg); }
+.earth figure { background-image: url(~@/assets/img/slides/slides-xs/1-02-earth.jpg); }
+.eden figure { background-image: url(~@/assets/img/slides/slides-xs/1-03-eden.jpg); }
+.guehinom figure { background-image: url(~@/assets/img/slides/slides-xs/1-04-guehinom.jpg); }
+.desert figure { background-image: url(~@/assets/img/slides/slides-xs/1-05-desert.jpg); }
+.fields figure { background-image: url(~@/assets/img/slides/slides-xs/1-06-fields.jpg); }
+.water figure { background-image: url(~@/assets/img/slides/slides-xs/1-07-water.jpg); }
+.seas figure { background-image: url(~@/assets/img/slides/slides-xs/1-08-seas.jpg); }
+.river figure { background-image: url(~@/assets/img/slides/slides-xs/1-09-river.jpg); }
+.spring-water figure { background-image: url(~@/assets/img/slides/slides-xs/1-10-spring-water.jpg); }
 
-.trees-fields figure { background-image: url(../../assets/img/slides/slides-xs/3-01-trees-fields.jpg); }
-.vine figure { background-image: url(../../assets/img/slides/slides-xs/3-02-vine.jpg); }
-.fig-tree figure { background-image: url(../../assets/img/slides/slides-xs/3-03-fig-tree.jpg); }
-.pomegranate-tree figure { background-image: url(../../assets/img/slides/slides-xs/3-04-pomegranate-tree.jpg); }
-.date-tree figure { background-image: url(../../assets/img/slides/slides-xs/3-05-date-tree.jpg); }
-.apple-tree figure { background-image: url(../../assets/img/slides/slides-xs/3-06-apple-tree.jpg); }
-.wheat figure { background-image: url(../../assets/img/slides/slides-xs/3-07-wheat.jpg); }
-.barley figure { background-image: url(../../assets/img/slides/slides-xs/3-08-barley.jpg); }
-.cereals figure { background-image: url(../../assets/img/slides/slides-xs/3-09-cereals.jpg); }
-.vegetables figure { background-image: url(../../assets/img/slides/slides-xs/3-10-vegetables.jpg); }
-.pastures figure { background-image: url(../../assets/img/slides/slides-xs/3-11-pastures.jpg); }
+.day figure { background-image: url(~@/assets/img/slides/slides-xs/2-01-day.jpg); }
+.night figure { background-image: url(~@/assets/img/slides/slides-xs/2-02-night.jpg); }
+.sun figure { background-image: url(~@/assets/img/slides/slides-xs/2-03-sun.jpg); }
+.moon figure { background-image: url(~@/assets/img/slides/slides-xs/2-04-moon.jpg); }
+.stars figure { background-image: url(~@/assets/img/slides/slides-xs/2-05-stars.jpg); }
+.clouds figure { background-image: url(~@/assets/img/slides/slides-xs/2-06-clouds.jpg); }
+.glory-clouds figure { background-image: url(~@/assets/img/slides/slides-xs/2-07-glory-clouds.jpg); }
+.wind figure { background-image: url(~@/assets/img/slides/slides-xs/2-08-wind.jpg); }
+.lightnings figure { background-image: url(~@/assets/img/slides/slides-xs/2-09-lightnings.jpg); }
+.dew figure { background-image: url(~@/assets/img/slides/slides-xs/2-10-dew.jpg); }
+.rain figure { background-image: url(~@/assets/img/slides/slides-xs/2-11-rain.jpg); }
 
-.rooster figure { background-image: url(../../assets/img/slides/slides-xs/4-01-rooster.jpg); }
-.hen figure { background-image: url(../../assets/img/slides/slides-xs/4-02-hen.jpg); }
-.dove figure { background-image: url(../../assets/img/slides/slides-xs/4-03-dove.jpg); }
-.eagle figure { background-image: url(../../assets/img/slides/slides-xs/4-04-eagle.jpg); }
-.heron figure { background-image: url(../../assets/img/slides/slides-xs/4-05-heron.jpg); }
-.swallow figure { background-image: url(../../assets/img/slides/slides-xs/4-06-swallow.jpg); }
-.sparrow figure { background-image: url(../../assets/img/slides/slides-xs/4-07-sparrow.jpg); }
-.albatross figure { background-image: url(../../assets/img/slides/slides-xs/4-08-albatross.jpg); }
-.owl figure { background-image: url(../../assets/img/slides/slides-xs/4-09-owl.jpg); }
-.retsipi figure { background-image: none; background-color: #000; }
-.stork figure { background-image: url(../../assets/img/slides/slides-xs/4-10-stork.jpg); }
-.crow figure { background-image: url(../../assets/img/slides/slides-xs/4-11-crow.jpg); }
-.starling figure { background-image: url(../../assets/img/slides/slides-xs/4-12-starling.jpg); }
-.goose figure { background-image: url(../../assets/img/slides/slides-xs/4-13-goose.jpg); }
-.wild-goose figure { background-image: url(../../assets/img/slides/slides-xs/4-14-wild-goose.jpg); }
-.chicken figure { background-image: url(../../assets/img/slides/slides-xs/4-15-chicken.jpg); }
-.cormorant figure { background-image: url(../../assets/img/slides/slides-xs/4-16-cormorant.jpg); }
-.locust figure { background-image: url(../../assets/img/slides/slides-xs/4-17-locust.jpg); }
-.grasshopper figure { background-image: url(../../assets/img/slides/slides-xs/4-18-grasshopper.jpg); }
-.lizard figure { background-image: url(../../assets/img/slides/slides-xs/4-19-lizard.jpg); }
-.fly figure { background-image: url(../../assets/img/slides/slides-xs/4-20-fly.jpg); }
-.cetacean figure { background-image: url(../../assets/img/slides/slides-xs/4-21-cetacean.jpg); }
-.whale figure { background-image: url(../../assets/img/slides/slides-xs/4-22-whale.jpg); }
-.fish figure { background-image: url(../../assets/img/slides/slides-xs/4-23-fish.jpg); }
-.frog figure { background-image: url(../../assets/img/slides/slides-xs/4-24-frog.jpg); }
+.trees-fields figure { background-image: url(~@/assets/img/slides/slides-xs/3-01-trees-fields.jpg); }
+.vine figure { background-image: url(~@/assets/img/slides/slides-xs/3-02-vine.jpg); }
+.fig-tree figure { background-image: url(~@/assets/img/slides/slides-xs/3-03-fig-tree.jpg); }
+.pomegranate-tree figure { background-image: url(~@/assets/img/slides/slides-xs/3-04-pomegranate-tree.jpg); }
+.date-tree figure { background-image: url(~@/assets/img/slides/slides-xs/3-05-date-tree.jpg); }
+.apple-tree figure { background-image: url(~@/assets/img/slides/slides-xs/3-06-apple-tree.jpg); }
+.wheat figure { background-image: url(~@/assets/img/slides/slides-xs/3-07-wheat.jpg); }
+.barley figure { background-image: url(~@/assets/img/slides/slides-xs/3-08-barley.jpg); }
+.cereals figure { background-image: url(~@/assets/img/slides/slides-xs/3-09-cereals.jpg); }
+.vegetables figure { background-image: url(~@/assets/img/slides/slides-xs/3-10-vegetables.jpg); }
+.pastures figure { background-image: url(~@/assets/img/slides/slides-xs/3-11-pastures.jpg); }
 
-.sheep figure { background-image: url(../../assets/img/slides/slides-xs/5-01-sheep.jpg); }
-.cows figure { background-image: url(../../assets/img/slides/slides-xs/5-02-cows.jpg); }
-.pigs figure { background-image: url(../../assets/img/slides/slides-xs/5-03-pigs.jpg); }
-.hippo figure { background-image: url(../../assets/img/slides/slides-xs/5-04-hippo.jpg); }
-.camel figure { background-image: url(../../assets/img/slides/slides-xs/5-05-camel.jpg); }
-.horses figure { background-image: url(../../assets/img/slides/slides-xs/5-06-horses.jpg); }
-.mule figure { background-image: url(../../assets/img/slides/slides-xs/5-07-mule.jpg); }
-.donkey figure { background-image: url(../../assets/img/slides/slides-xs/5-08-donkey.jpg); }
-.bull figure { background-image: url(../../assets/img/slides/slides-xs/5-09-bull.jpg); }
-.girafe figure { background-image: url(../../assets/img/slides/slides-xs/5-10-girafe.jpg); }
-.deer figure { background-image: url(../../assets/img/slides/slides-xs/5-11-deer.jpg); }
-.elephant figure { background-image: url(../../assets/img/slides/slides-xs/5-12-elephant.jpg); }
-.lion figure { background-image: url(../../assets/img/slides/slides-xs/5-13-lion.jpg); }
-.bear figure { background-image: url(../../assets/img/slides/slides-xs/5-14-bear.jpg); }
-.wolf figure { background-image: url(../../assets/img/slides/slides-xs/5-15-wolf.jpg); }
-.fox figure { background-image: url(../../assets/img/slides/slides-xs/5-16-fox.jpg); }
-.greyhound figure { background-image: url(../../assets/img/slides/slides-xs/5-17-greyhound.jpg); }
-.cat figure { background-image: url(../../assets/img/slides/slides-xs/5-18-cat.jpg); }
+.rooster figure { background-image: url(~@/assets/img/slides/slides-xs/4-01-rooster.jpg); }
+.hen figure { background-image: url(~@/assets/img/slides/slides-xs/4-02-hen.jpg); }
+.dove figure { background-image: url(~@/assets/img/slides/slides-xs/4-03-dove.jpg); }
+.eagle figure { background-image: url(~@/assets/img/slides/slides-xs/4-04-eagle.jpg); }
+.heron figure { background-image: url(~@/assets/img/slides/slides-xs/4-05-heron.jpg); }
+.swallow figure { background-image: url(~@/assets/img/slides/slides-xs/4-06-swallow.jpg); }
+.sparrow figure { background-image: url(~@/assets/img/slides/slides-xs/4-07-sparrow.jpg); }
+.albatross figure { background-image: url(~@/assets/img/slides/slides-xs/4-08-albatross.jpg); }
+.owl figure { background-image: url(~@/assets/img/slides/slides-xs/petrel.jpg); }
+.petrel figure { background-image: url(~@/assets/img/slides/slides-xs/4-09-owl.jpg); }
+.stork figure { background-image: url(~@/assets/img/slides/slides-xs/4-10-stork.jpg); }
+.crow figure { background-image: url(~@/assets/img/slides/slides-xs/4-11-crow.jpg); }
+.starling figure { background-image: url(~@/assets/img/slides/slides-xs/4-12-starling.jpg); }
+.goose figure { background-image: url(~@/assets/img/slides/slides-xs/4-13-goose.jpg); }
+.goose-wild figure { background-image: url(~@/assets/img/slides/slides-xs/4-14-goose-wild.jpg); }
+.chicken figure { background-image: url(~@/assets/img/slides/slides-xs/4-15-chicken.jpg); }
+.cormorant figure { background-image: url(~@/assets/img/slides/slides-xs/4-16-cormorant.jpg); }
+.locust figure { background-image: url(~@/assets/img/slides/slides-xs/4-17-locust.jpg); }
+.grasshopper figure { background-image: url(~@/assets/img/slides/slides-xs/4-18-grasshopper.jpg); }
+.lizard figure { background-image: url(~@/assets/img/slides/slides-xs/4-19-lizard.jpg); }
+.fly figure { background-image: url(~@/assets/img/slides/slides-xs/4-20-fly.jpg); }
+.cetacean figure { background-image: url(~@/assets/img/slides/slides-xs/4-21-cetacean.jpg); }
+.whale figure { background-image: url(~@/assets/img/slides/slides-xs/4-22-whale.jpg); }
+.fish figure { background-image: url(~@/assets/img/slides/slides-xs/4-23-fish.jpg); }
+.frog figure { background-image: url(~@/assets/img/slides/slides-xs/4-24-frog.jpg); }
 
-.crocodile figure { background-image: url(../../assets/img/slides/slides-xs/6-01-crocodile.jpg); }
-.komodo-dragon figure { background-image: url(../../assets/img/slides/slides-xs/6-02-komodo-dragon.jpg); }
-.snake figure { background-image: url(../../assets/img/slides/slides-xs/6-03-snake.jpg); }
-.scorpion figure { background-image: url(../../assets/img/slides/slides-xs/6-04-scorpion.jpg); }
-.snail figure { background-image: url(../../assets/img/slides/slides-xs/6-05-snail.jpg); }
-.ants figure { background-image: url(../../assets/img/slides/slides-xs/6-06-ants.jpg); }
-.mouse figure { background-image: url(../../assets/img/slides/slides-xs/6-07-mouse.jpg); }
-.rat figure { background-image: url(../../assets/img/slides/slides-xs/6-08-rat.jpg); }
-.dogs figure { background-image: url(../../assets/img/slides/slides-xs/6-09-dogs.jpg); }
+.sheep figure { background-image: url(~@/assets/img/slides/slides-xs/5-01-sheep.jpg); }
+.cows figure { background-image: url(~@/assets/img/slides/slides-xs/5-02-cows.jpg); }
+.pigs figure { background-image: url(~@/assets/img/slides/slides-xs/5-03-pigs.jpg); }
+.hippo figure { background-image: url(~@/assets/img/slides/slides-xs/5-04-hippo.jpg); }
+.camel figure { background-image: url(~@/assets/img/slides/slides-xs/5-05-camel.jpg); }
+.horses figure { background-image: url(~@/assets/img/slides/slides-xs/5-06-horses.jpg); }
+.mule figure { background-image: url(~@/assets/img/slides/slides-xs/5-07-mule.jpg); }
+.donkey figure { background-image: url(~@/assets/img/slides/slides-xs/5-08-donkey.jpg); }
+.bull figure { background-image: url(~@/assets/img/slides/slides-xs/5-09-bull.jpg); }
+.girafe figure { background-image: url(~@/assets/img/slides/slides-xs/5-10-girafe.jpg); }
+.deer figure { background-image: url(~@/assets/img/slides/slides-xs/5-11-deer.jpg); }
+.elephant figure { background-image: url(~@/assets/img/slides/slides-xs/5-12-elephant.jpg); }
+.lion figure { background-image: url(~@/assets/img/slides/slides-xs/5-13-lion.jpg); }
+.bear figure { background-image: url(~@/assets/img/slides/slides-xs/5-14-bear.jpg); }
+.wolf figure { background-image: url(~@/assets/img/slides/slides-xs/5-15-wolf.jpg); }
+.fox figure { background-image: url(~@/assets/img/slides/slides-xs/5-16-fox.jpg); }
+.greyhound figure { background-image: url(~@/assets/img/slides/slides-xs/5-17-greyhound.jpg); }
+.cat figure { background-image: url(~@/assets/img/slides/slides-xs/5-18-cat.jpg); }
+
+.crocodile figure { background-image: url(~@/assets/img/slides/slides-xs/6-01-crocodile.jpg); }
+.komodo-dragon figure { background-image: url(~@/assets/img/slides/slides-xs/6-02-komodo-dragon.jpg); }
+.snake figure { background-image: url(~@/assets/img/slides/slides-xs/6-03-snake.jpg); }
+.scorpion figure { background-image: url(~@/assets/img/slides/slides-xs/6-04-scorpion.jpg); }
+.snail figure { background-image: url(~@/assets/img/slides/slides-xs/6-05-snail.jpg); }
+.ants figure { background-image: url(~@/assets/img/slides/slides-xs/6-06-ants.jpg); }
+.mouse figure { background-image: url(~@/assets/img/slides/slides-xs/6-07-mouse.jpg); }
+.rat figure { background-image: url(~@/assets/img/slides/slides-xs/6-08-rat.jpg); }
+.dogs figure { background-image: url(~@/assets/img/slides/slides-xs/6-09-dogs.jpg); }
 
 
 
 @media screen and (min-width: 992px) {
-    .sky figure { background-image: url(../../assets/img/slides/slides-md/1-01-sky.jpg); }
-    .earth figure { background-image: url(../../assets/img/slides/slides-md/1-02-earth.jpg); }
-    .eden figure { background-image: url(../../assets/img/slides/slides-md/1-03-eden.jpg); }
-    .guehinom figure { background-image: url(../../assets/img/slides/slides-md/1-04-guehinom.jpg); }
-    .desert figure { background-image: url(../../assets/img/slides/slides-md/1-05-desert.jpg); }
-    .fields figure { background-image: url(../../assets/img/slides/slides-md/1-06-fields.jpg); }
-    .water figure { background-image: url(../../assets/img/slides/slides-md/1-07-water.jpg); }
-    .seas figure { background-image: url(../../assets/img/slides/slides-md/1-08-seas.jpg); }
-    .river figure { background-image: url(../../assets/img/slides/slides-md/1-09-river.jpg); }
-    .spring-water figure { background-image: url(../../assets/img/slides/slides-md/1-10-spring-water.jpg); }
+    .galaxy figure { background-image: url(~@/assets/img/slides/slides-md/galaxy-milky-way.jpg); }
+    
+    .sky figure { background-image: url(~@/assets/img/slides/slides-md/1-01-sky.jpg); }
+    .earth figure { background-image: url(~@/assets/img/slides/slides-md/1-02-earth.jpg); }
+    .eden figure { background-image: url(~@/assets/img/slides/slides-md/1-03-eden.jpg); }
+    .guehinom figure { background-image: url(~@/assets/img/slides/slides-md/1-04-guehinom.jpg); }
+    .desert figure { background-image: url(~@/assets/img/slides/slides-md/1-05-desert.jpg); }
+    .fields figure { background-image: url(~@/assets/img/slides/slides-md/1-06-fields.jpg); }
+    .water figure { background-image: url(~@/assets/img/slides/slides-md/1-07-water.jpg); }
+    .seas figure { background-image: url(~@/assets/img/slides/slides-md/1-08-seas.jpg); }
+    .river figure { background-image: url(~@/assets/img/slides/slides-md/1-09-river.jpg); }
+    .spring-water figure { background-image: url(~@/assets/img/slides/slides-md/1-10-spring-water.jpg); }
 
-    .day figure { background-image: url(../../assets/img/slides/slides-md/2-01-day.jpg); }
-    .night figure { background-image: url(../../assets/img/slides/slides-md/2-02-night.jpg); }
-    .sun figure { background-image: url(../../assets/img/slides/slides-md/2-03-sun.jpg); }
-    .moon figure { background-image: url(../../assets/img/slides/slides-md/2-04-moon.jpg); }
-    .stars figure { background-image: url(../../assets/img/slides/slides-md/2-05-stars.jpg); }
-    .clouds figure { background-image: url(../../assets/img/slides/slides-md/2-06-clouds.jpg); }
-    .glory-clouds figure { background-image: url(../../assets/img/slides/slides-md/2-07-glory-clouds.jpg); }
-    .wind figure { background-image: url(../../assets/img/slides/slides-md/2-08-wind.jpg); }
-    .lightnings figure { background-image: url(../../assets/img/slides/slides-md/2-09-lightnings.jpg); }
-    .dew figure { background-image: url(../../assets/img/slides/slides-md/2-10-dew.jpg); }
-    .rain figure { background-image: url(../../assets/img/slides/slides-md/2-11-rain.jpg); }
+    .day figure { background-image: url(~@/assets/img/slides/slides-md/2-01-day.jpg); }
+    .night figure { background-image: url(~@/assets/img/slides/slides-md/2-02-night.jpg); }
+    .sun figure { background-image: url(~@/assets/img/slides/slides-md/2-03-sun.jpg); }
+    .moon figure { background-image: url(~@/assets/img/slides/slides-md/2-04-moon.jpg); }
+    .stars figure { background-image: url(~@/assets/img/slides/slides-md/2-05-stars.jpg); }
+    .clouds figure { background-image: url(~@/assets/img/slides/slides-md/2-06-clouds.jpg); }
+    .glory-clouds figure { background-image: url(~@/assets/img/slides/slides-md/2-07-glory-clouds.jpg); }
+    .wind figure { background-image: url(~@/assets/img/slides/slides-md/2-08-wind.jpg); }
+    .lightnings figure { background-image: url(~@/assets/img/slides/slides-md/2-09-lightnings.jpg); }
+    .dew figure { background-image: url(~@/assets/img/slides/slides-md/2-10-dew.jpg); }
+    .rain figure { background-image: url(~@/assets/img/slides/slides-md/2-11-rain.jpg); }
 
-    .trees-fields figure { background-image: url(../../assets/img/slides/slides-md/3-01-trees-fields.jpg); }
-    .vine figure { background-image: url(../../assets/img/slides/slides-md/3-02-vine.jpg); }
-    .fig-tree figure { background-image: url(../../assets/img/slides/slides-md/3-03-fig-tree.jpg); }
-    .pomegranate-tree figure { background-image: url(../../assets/img/slides/slides-md/3-04-pomegranate-tree.jpg); }
-    .date-tree figure { background-image: url(../../assets/img/slides/slides-md/3-05-date-tree.jpg); }
-    .apple-tree figure { background-image: url(../../assets/img/slides/slides-md/3-06-apple-tree.jpg); }
-    .wheat figure { background-image: url(../../assets/img/slides/slides-md/3-07-wheat.jpg); }
-    .barley figure { background-image: url(../../assets/img/slides/slides-md/3-08-barley.jpg); }
-    .cereals figure { background-image: url(../../assets/img/slides/slides-md/3-09-cereals.jpg); }
-    .vegetables figure { background-image: url(../../assets/img/slides/slides-md/3-10-vegetables.jpg); }
-    .pastures figure { background-image: url(../../assets/img/slides/slides-md/3-11-pastures.jpg); }
+    .trees-fields figure { background-image: url(~@/assets/img/slides/slides-md/3-01-trees-fields.jpg); }
+    .vine figure { background-image: url(~@/assets/img/slides/slides-md/3-02-vine.jpg); }
+    .fig-tree figure { background-image: url(~@/assets/img/slides/slides-md/3-03-fig-tree.jpg); }
+    .pomegranate-tree figure { background-image: url(~@/assets/img/slides/slides-md/3-04-pomegranate-tree.jpg); }
+    .date-tree figure { background-image: url(~@/assets/img/slides/slides-md/3-05-date-tree.jpg); }
+    .apple-tree figure { background-image: url(~@/assets/img/slides/slides-md/3-06-apple-tree.jpg); }
+    .wheat figure { background-image: url(~@/assets/img/slides/slides-md/3-07-wheat.jpg); }
+    .barley figure { background-image: url(~@/assets/img/slides/slides-md/3-08-barley.jpg); }
+    .cereals figure { background-image: url(~@/assets/img/slides/slides-md/3-09-cereals.jpg); }
+    .vegetables figure { background-image: url(~@/assets/img/slides/slides-md/3-10-vegetables.jpg); }
+    .pastures figure { background-image: url(~@/assets/img/slides/slides-md/3-11-pastures.jpg); }
 
-    .rooster figure { background-image: url(../../assets/img/slides/slides-md/4-01-rooster.jpg); }
-    .hen figure { background-image: url(../../assets/img/slides/slides-md/4-02-hen.jpg); }
-    .dove figure { background-image: url(../../assets/img/slides/slides-md/4-03-dove.jpg); }
-    .eagle figure { background-image: url(../../assets/img/slides/slides-md/4-04-eagle.jpg); }
-    .heron figure { background-image: url(../../assets/img/slides/slides-md/4-05-heron.jpg); }
-    .swallow figure { background-image: url(../../assets/img/slides/slides-md/4-06-swallow.jpg); }
-    .sparrow figure { background-image: url(../../assets/img/slides/slides-md/4-07-sparrow.jpg); }
-    .albatross figure { background-image: url(../../assets/img/slides/slides-md/4-08-albatross.jpg); }
-    .owl figure { background-image: url(../../assets/img/slides/slides-md/4-09-owl.jpg); }
-    .stork figure { background-image: url(../../assets/img/slides/slides-md/4-10-stork.jpg); }
-    .crow figure { background-image: url(../../assets/img/slides/slides-md/4-11-crow.jpg); }
-    .starling figure { background-image: url(../../assets/img/slides/slides-md/4-12-starling.jpg); }
-    .goose figure { background-image: url(../../assets/img/slides/slides-md/4-13-goose.jpg); }
-    .wild-goose figure { background-image: url(../../assets/img/slides/slides-md/4-14-wild-goose.jpg); }
-    .chicken figure { background-image: url(../../assets/img/slides/slides-md/4-15-chicken.jpg); }
-    .cormorant figure { background-image: url(../../assets/img/slides/slides-md/4-16-cormorant.jpg); }
-    .locust figure { background-image: url(../../assets/img/slides/slides-md/4-17-locust.jpg); }
-    .grasshopper figure { background-image: url(../../assets/img/slides/slides-md/4-18-grasshopper.jpg); }
-    .lizard figure { background-image: url(../../assets/img/slides/slides-md/4-19-lizard.jpg); }
-    .fly figure { background-image: url(../../assets/img/slides/slides-md/4-20-fly.jpg); }
-    .cetacean figure { background-image: url(../../assets/img/slides/slides-md/4-21-cetacean.jpg); }
-    .whale figure { background-image: url(../../assets/img/slides/slides-md/4-22-whale.jpg); }
-    .fish figure { background-image: url(../../assets/img/slides/slides-md/4-23-fish.jpg); }
-    .frog figure { background-image: url(../../assets/img/slides/slides-md/4-24-frog.jpg); }
+    .rooster figure { background-image: url(~@/assets/img/slides/slides-md/4-01-rooster.jpg); }
+    .hen figure { background-image: url(~@/assets/img/slides/slides-md/4-02-hen.jpg); }
+    .dove figure { background-image: url(~@/assets/img/slides/slides-md/4-03-dove.jpg); }
+    .eagle figure { background-image: url(~@/assets/img/slides/slides-md/4-04-eagle.jpg); }
+    .heron figure { background-image: url(~@/assets/img/slides/slides-md/4-05-heron.jpg); }
+    .swallow figure { background-image: url(~@/assets/img/slides/slides-md/4-06-swallow.jpg); }
+    .sparrow figure { background-image: url(~@/assets/img/slides/slides-md/4-07-sparrow.jpg); }
+    .albatross figure { background-image: url(~@/assets/img/slides/slides-md/4-08-albatross.jpg); }
+    .owl figure { background-image: url(~@/assets/img/slides/slides-md/petrel.jpg); }
+    .petrel figure { background-image: url(~@/assets/img/slides/slides-xs/4-09-owl.jpg); }
+    .stork figure { background-image: url(~@/assets/img/slides/slides-md/4-10-stork.jpg); }
+    .crow figure { background-image: url(~@/assets/img/slides/slides-md/4-11-crow.jpg); }
+    .starling figure { background-image: url(~@/assets/img/slides/slides-md/4-12-starling.jpg); }
+    .goose figure { background-image: url(~@/assets/img/slides/slides-md/4-13-goose.jpg); }
+    .goose-wild figure { background-image: url(~@/assets/img/slides/slides-md/4-14-goose-wild.jpg); }
+    .chicken figure { background-image: url(~@/assets/img/slides/slides-md/4-15-chicken.jpg); }
+    .cormorant figure { background-image: url(~@/assets/img/slides/slides-md/4-16-cormorant.jpg); }
+    .locust figure { background-image: url(~@/assets/img/slides/slides-md/4-17-locust.jpg); }
+    .grasshopper figure { background-image: url(~@/assets/img/slides/slides-md/4-18-grasshopper.jpg); }
+    .lizard figure { background-image: url(~@/assets/img/slides/slides-md/4-19-lizard.jpg); }
+    .fly figure { background-image: url(~@/assets/img/slides/slides-md/4-20-fly.jpg); }
+    .cetacean figure { background-image: url(~@/assets/img/slides/slides-md/4-21-cetacean.jpg); }
+    .whale figure { background-image: url(~@/assets/img/slides/slides-md/4-22-whale.jpg); }
+    .fish figure { background-image: url(~@/assets/img/slides/slides-md/4-23-fish.jpg); }
+    .frog figure { background-image: url(~@/assets/img/slides/slides-md/4-24-frog.jpg); }
 
-    .sheep figure { background-image: url(../../assets/img/slides/slides-md/5-01-sheep.jpg); }
-    .cows figure { background-image: url(../../assets/img/slides/slides-md/5-02-cows.jpg); }
-    .pigs figure { background-image: url(../../assets/img/slides/slides-md/5-03-pigs.jpg); }
-    .hippo figure { background-image: url(../../assets/img/slides/slides-md/5-04-hippo.jpg); }
-    .camel figure { background-image: url(../../assets/img/slides/slides-md/5-05-camel.jpg); }
-    .horses figure { background-image: url(../../assets/img/slides/slides-md/5-06-horses.jpg); }
-    .mule figure { background-image: url(../../assets/img/slides/slides-md/5-07-mule.jpg); }
-    .donkey figure { background-image: url(../../assets/img/slides/slides-md/5-08-donkey.jpg); }
-    .bull figure { background-image: url(../../assets/img/slides/slides-md/5-09-bull.jpg); }
-    .girafe figure { background-image: url(../../assets/img/slides/slides-md/5-10-girafe.jpg); }
-    .deer figure { background-image: url(../../assets/img/slides/slides-md/5-11-deer.jpg); }
-    .elephant figure { background-image: url(../../assets/img/slides/slides-md/5-12-elephant.jpg); }
-    .lion figure { background-image: url(../../assets/img/slides/slides-md/5-13-lion.jpg); }
-    .bear figure { background-image: url(../../assets/img/slides/slides-md/5-14-bear.jpg); }
-    .wolf figure { background-image: url(../../assets/img/slides/slides-md/5-15-wolf.jpg); }
-    .fox figure { background-image: url(../../assets/img/slides/slides-md/5-16-fox.jpg); }
-    .greyhound figure { background-image: url(../../assets/img/slides/slides-md/5-17-greyhound.jpg); }
-    .cat figure { background-image: url(../../assets/img/slides/slides-md/5-18-cat.jpg); }
+    .sheep figure { background-image: url(~@/assets/img/slides/slides-md/5-01-sheep.jpg); }
+    .cows figure { background-image: url(~@/assets/img/slides/slides-md/5-02-cows.jpg); }
+    .pigs figure { background-image: url(~@/assets/img/slides/slides-md/5-03-pigs.jpg); }
+    .hippo figure { background-image: url(~@/assets/img/slides/slides-md/5-04-hippo.jpg); }
+    .camel figure { background-image: url(~@/assets/img/slides/slides-md/5-05-camel.jpg); }
+    .horses figure { background-image: url(~@/assets/img/slides/slides-md/5-06-horses.jpg); }
+    .mule figure { background-image: url(~@/assets/img/slides/slides-md/5-07-mule.jpg); }
+    .donkey figure { background-image: url(~@/assets/img/slides/slides-md/5-08-donkey.jpg); }
+    .bull figure { background-image: url(~@/assets/img/slides/slides-md/5-09-bull.jpg); }
+    .girafe figure { background-image: url(~@/assets/img/slides/slides-md/5-10-girafe.jpg); }
+    .deer figure { background-image: url(~@/assets/img/slides/slides-md/5-11-deer.jpg); }
+    .elephant figure { background-image: url(~@/assets/img/slides/slides-md/5-12-elephant.jpg); }
+    .lion figure { background-image: url(~@/assets/img/slides/slides-md/5-13-lion.jpg); }
+    .bear figure { background-image: url(~@/assets/img/slides/slides-md/5-14-bear.jpg); }
+    .wolf figure { background-image: url(~@/assets/img/slides/slides-md/5-15-wolf.jpg); }
+    .fox figure { background-image: url(~@/assets/img/slides/slides-md/5-16-fox.jpg); }
+    .greyhound figure { background-image: url(~@/assets/img/slides/slides-md/5-17-greyhound.jpg); }
+    .cat figure { background-image: url(~@/assets/img/slides/slides-md/5-18-cat.jpg); }
 
-    .crocodile figure { background-image: url(../../assets/img/slides/slides-md/6-01-crocodile.jpg); }
-    .komodo-dragon figure { background-image: url(../../assets/img/slides/slides-md/6-02-komodo-dragon.jpg); }
-    .snake figure { background-image: url(../../assets/img/slides/slides-md/6-03-snake.jpg); }
-    .scorpion figure { background-image: url(../../assets/img/slides/slides-md/6-04-scorpion.jpg); }
-    .snail figure { background-image: url(../../assets/img/slides/slides-md/6-05-snail.jpg); }
-    .ants figure { background-image: url(../../assets/img/slides/slides-md/6-06-ants.jpg); }
-    .mouse figure { background-image: url(../../assets/img/slides/slides-md/6-07-mouse.jpg); }
-    .rat figure { background-image: url(../../assets/img/slides/slides-md/6-08-rat.jpg); }
-    .dogs figure { background-image: url(../../assets/img/slides/slides-md/6-09-dogs.jpg); }
+    .crocodile figure { background-image: url(~@/assets/img/slides/slides-md/6-01-crocodile.jpg); }
+    .komodo-dragon figure { background-image: url(~@/assets/img/slides/slides-md/6-02-komodo-dragon.jpg); }
+    .snake figure { background-image: url(~@/assets/img/slides/slides-md/6-03-snake.jpg); }
+    .scorpion figure { background-image: url(~@/assets/img/slides/slides-md/6-04-scorpion.jpg); }
+    .snail figure { background-image: url(~@/assets/img/slides/slides-md/6-05-snail.jpg); }
+    .ants figure { background-image: url(~@/assets/img/slides/slides-md/6-06-ants.jpg); }
+    .mouse figure { background-image: url(~@/assets/img/slides/slides-md/6-07-mouse.jpg); }
+    .rat figure { background-image: url(~@/assets/img/slides/slides-md/6-08-rat.jpg); }
+    .dogs figure { background-image: url(~@/assets/img/slides/slides-md/6-09-dogs.jpg); }
 }
 
 
 
 @media screen and (min-width: 1200px) {
-    .sky figure { background-image: url(../../assets/img/slides/slides-lg/1-01-sky.jpg); }
-    .earth figure { background-image: url(../../assets/img/slides/slides-lg/1-02-earth.jpg); }
-    .eden figure { background-image: url(../../assets/img/slides/slides-lg/1-03-eden.jpg); }
-    .guehinom figure { background-image: url(../../assets/img/slides/slides-lg/1-04-guehinom.jpg); }
-    .desert figure { background-image: url(../../assets/img/slides/slides-lg/1-05-desert.jpg); }
-    .fields figure { background-image: url(../../assets/img/slides/slides-lg/1-06-fields.jpg); }
-    .water figure { background-image: url(../../assets/img/slides/slides-lg/1-07-water.jpg); }
-    .seas figure { background-image: url(../../assets/img/slides/slides-lg/1-08-seas.jpg); }
-    .river figure { background-image: url(../../assets/img/slides/slides-lg/1-09-river.jpg); }
-    .spring-water figure { background-image: url(../../assets/img/slides/slides-lg/1-10-spring-water.jpg); }
+    .galaxy figure { background-image: url(~@/assets/img/slides/slides-lg/galaxy-milky-way.jpg); }
+    
+    .sky figure { background-image: url(~@/assets/img/slides/slides-lg/1-01-sky.jpg); }
+    .earth figure { background-image: url(~@/assets/img/slides/slides-lg/1-02-earth.jpg); }
+    .eden figure { background-image: url(~@/assets/img/slides/slides-lg/1-03-eden.jpg); }
+    .guehinom figure { background-image: url(~@/assets/img/slides/slides-lg/1-04-guehinom.jpg); }
+    .desert figure { background-image: url(~@/assets/img/slides/slides-lg/1-05-desert.jpg); }
+    .fields figure { background-image: url(~@/assets/img/slides/slides-lg/1-06-fields.jpg); }
+    .water figure { background-image: url(~@/assets/img/slides/slides-lg/1-07-water.jpg); }
+    .seas figure { background-image: url(~@/assets/img/slides/slides-lg/1-08-seas.jpg); }
+    .river figure { background-image: url(~@/assets/img/slides/slides-lg/1-09-river.jpg); }
+    .spring-water figure { background-image: url(~@/assets/img/slides/slides-lg/1-10-spring-water.jpg); }
 
-    .day figure { background-image: url(../../assets/img/slides/slides-lg/2-01-day.jpg); }
-    .night figure { background-image: url(../../assets/img/slides/slides-lg/2-02-night.jpg); }
-    .sun figure { background-image: url(../../assets/img/slides/slides-lg/2-03-sun.jpg); }
-    .moon figure { background-image: url(../../assets/img/slides/slides-lg/2-04-moon.jpg); }
-    .stars figure { background-image: url(../../assets/img/slides/slides-lg/2-05-stars.jpg); }
-    .clouds figure { background-image: url(../../assets/img/slides/slides-lg/2-06-clouds.jpg); }
-    .glory-clouds figure { background-image: url(../../assets/img/slides/slides-lg/2-07-glory-clouds.jpg); }
-    .wind figure { background-image: url(../../assets/img/slides/slides-lg/2-08-wind.jpg); }
-    .lightnings figure { background-image: url(../../assets/img/slides/slides-lg/2-09-lightnings.jpg); }
-    .dew figure { background-image: url(../../assets/img/slides/slides-lg/2-10-dew.jpg); }
-    .rain figure { background-image: url(../../assets/img/slides/slides-lg/2-11-rain.jpg); }
+    .day figure { background-image: url(~@/assets/img/slides/slides-lg/2-01-day.jpg); }
+    .night figure { background-image: url(~@/assets/img/slides/slides-lg/2-02-night.jpg); }
+    .sun figure { background-image: url(~@/assets/img/slides/slides-lg/2-03-sun.jpg); }
+    .moon figure { background-image: url(~@/assets/img/slides/slides-lg/2-04-moon.jpg); }
+    .stars figure { background-image: url(~@/assets/img/slides/slides-lg/2-05-stars.jpg); }
+    .clouds figure { background-image: url(~@/assets/img/slides/slides-lg/2-06-clouds.jpg); }
+    .glory-clouds figure { background-image: url(~@/assets/img/slides/slides-lg/2-07-glory-clouds.jpg); }
+    .wind figure { background-image: url(~@/assets/img/slides/slides-lg/2-08-wind.jpg); }
+    .lightnings figure { background-image: url(~@/assets/img/slides/slides-lg/2-09-lightnings.jpg); }
+    .dew figure { background-image: url(~@/assets/img/slides/slides-lg/2-10-dew.jpg); }
+    .rain figure { background-image: url(~@/assets/img/slides/slides-lg/2-11-rain.jpg); }
 
-    .trees-fields figure { background-image: url(../../assets/img/slides/slides-lg/3-01-trees-fields.jpg); }
-    .vine figure { background-image: url(../../assets/img/slides/slides-lg/3-02-vine.jpg); }
-    .fig-tree figure { background-image: url(../../assets/img/slides/slides-lg/3-03-fig-tree.jpg); }
-    .pomegranate-tree figure { background-image: url(../../assets/img/slides/slides-lg/3-04-pomegranate-tree.jpg); }
-    .date-tree figure { background-image: url(../../assets/img/slides/slides-lg/3-05-date-tree.jpg); }
-    .apple-tree figure { background-image: url(../../assets/img/slides/slides-lg/3-06-apple-tree.jpg); }
-    .wheat figure { background-image: url(../../assets/img/slides/slides-lg/3-07-wheat.jpg); }
-    .barley figure { background-image: url(../../assets/img/slides/slides-lg/3-08-barley.jpg); }
-    .cereals figure { background-image: url(../../assets/img/slides/slides-lg/3-09-cereals.jpg); }
-    .vegetables figure { background-image: url(../../assets/img/slides/slides-lg/3-10-vegetables.jpg); }
-    .pastures figure { background-image: url(../../assets/img/slides/slides-lg/3-11-pastures.jpg); }
+    .trees-fields figure { background-image: url(~@/assets/img/slides/slides-lg/3-01-trees-fields.jpg); }
+    .vine figure { background-image: url(~@/assets/img/slides/slides-lg/3-02-vine.jpg); }
+    .fig-tree figure { background-image: url(~@/assets/img/slides/slides-lg/3-03-fig-tree.jpg); }
+    .pomegranate-tree figure { background-image: url(~@/assets/img/slides/slides-lg/3-04-pomegranate-tree.jpg); }
+    .date-tree figure { background-image: url(~@/assets/img/slides/slides-lg/3-05-date-tree.jpg); }
+    .apple-tree figure { background-image: url(~@/assets/img/slides/slides-lg/3-06-apple-tree.jpg); }
+    .wheat figure { background-image: url(~@/assets/img/slides/slides-lg/3-07-wheat.jpg); }
+    .barley figure { background-image: url(~@/assets/img/slides/slides-lg/3-08-barley.jpg); }
+    .cereals figure { background-image: url(~@/assets/img/slides/slides-lg/3-09-cereals.jpg); }
+    .vegetables figure { background-image: url(~@/assets/img/slides/slides-lg/3-10-vegetables.jpg); }
+    .pastures figure { background-image: url(~@/assets/img/slides/slides-lg/3-11-pastures.jpg); }
 
-    .rooster figure { background-image: url(../../assets/img/slides/slides-lg/4-01-rooster.jpg); }
-    .hen figure { background-image: url(../../assets/img/slides/slides-lg/4-02-hen.jpg); }
-    .dove figure { background-image: url(../../assets/img/slides/slides-lg/4-03-dove.jpg); }
-    .eagle figure { background-image: url(../../assets/img/slides/slides-lg/4-04-eagle.jpg); }
-    .heron figure { background-image: url(../../assets/img/slides/slides-lg/4-05-heron.jpg); }
-    .swallow figure { background-image: url(../../assets/img/slides/slides-lg/4-06-swallow.jpg); }
-    .sparrow figure { background-image: url(../../assets/img/slides/slides-lg/4-07-sparrow.jpg); }
-    .albatross figure { background-image: url(../../assets/img/slides/slides-lg/4-08-albatross.jpg); }
-    .owl figure { background-image: url(../../assets/img/slides/slides-lg/4-09-owl.jpg); }
-    .stork figure { background-image: url(../../assets/img/slides/slides-lg/4-10-stork.jpg); }
-    .crow figure { background-image: url(../../assets/img/slides/slides-lg/4-11-crow.jpg); }
-    .starling figure { background-image: url(../../assets/img/slides/slides-lg/4-12-starling.jpg); }
-    .goose figure { background-image: url(../../assets/img/slides/slides-lg/4-13-goose.jpg); }
-    .wild-goose figure { background-image: url(../../assets/img/slides/slides-lg/4-14-wild-goose.jpg); }
-    .chicken figure { background-image: url(../../assets/img/slides/slides-lg/4-15-chicken.jpg); }
-    .cormorant figure { background-image: url(../../assets/img/slides/slides-lg/4-16-cormorant.jpg); }
-    .locust figure { background-image: url(../../assets/img/slides/slides-lg/4-17-locust.jpg); }
-    .grasshopper figure { background-image: url(../../assets/img/slides/slides-lg/4-18-grasshopper.jpg); }
-    .lizard figure { background-image: url(../../assets/img/slides/slides-lg/4-19-lizard.jpg); }
-    .fly figure { background-image: url(../../assets/img/slides/slides-lg/4-20-fly.jpg); }
-    .cetacean figure { background-image: url(../../assets/img/slides/slides-lg/4-21-cetacean.jpg); }
-    .whale figure { background-image: url(../../assets/img/slides/slides-lg/4-22-whale.jpg); }
-    .fish figure { background-image: url(../../assets/img/slides/slides-lg/4-23-fish.jpg); }
-    .frog figure { background-image: url(../../assets/img/slides/slides-lg/4-24-frog.jpg); }
+    .rooster figure { background-image: url(~@/assets/img/slides/slides-lg/4-01-rooster.jpg); }
+    .hen figure { background-image: url(~@/assets/img/slides/slides-lg/4-02-hen.jpg); }
+    .dove figure { background-image: url(~@/assets/img/slides/slides-lg/4-03-dove.jpg); }
+    .eagle figure { background-image: url(~@/assets/img/slides/slides-lg/4-04-eagle.jpg); }
+    .heron figure { background-image: url(~@/assets/img/slides/slides-lg/4-05-heron.jpg); }
+    .swallow figure { background-image: url(~@/assets/img/slides/slides-lg/4-06-swallow.jpg); }
+    .sparrow figure { background-image: url(~@/assets/img/slides/slides-lg/4-07-sparrow.jpg); }
+    .albatross figure { background-image: url(~@/assets/img/slides/slides-lg/4-08-albatross.jpg); }
+    .owl figure { background-image: url(~@/assets/img/slides/slides-lg/4-09-owl.jpg); }
+    .petrel figure { background-image: url(~@/assets/img/slides/slides-xs/petrel.jpg); }
+    .stork figure { background-image: url(~@/assets/img/slides/slides-lg/4-10-stork.jpg); }
+    .crow figure { background-image: url(~@/assets/img/slides/slides-lg/4-11-crow.jpg); }
+    .starling figure { background-image: url(~@/assets/img/slides/slides-lg/4-12-starling.jpg); }
+    .goose figure { background-image: url(~@/assets/img/slides/slides-lg/4-13-goose.jpg); }
+    .goose-wild figure { background-image: url(~@/assets/img/slides/slides-lg/4-14-goose-wild.jpg); }
+    .chicken figure { background-image: url(~@/assets/img/slides/slides-lg/4-15-chicken.jpg); }
+    .cormorant figure { background-image: url(~@/assets/img/slides/slides-lg/4-16-cormorant.jpg); }
+    .locust figure { background-image: url(~@/assets/img/slides/slides-lg/4-17-locust.jpg); }
+    .grasshopper figure { background-image: url(~@/assets/img/slides/slides-lg/4-18-grasshopper.jpg); }
+    .lizard figure { background-image: url(~@/assets/img/slides/slides-lg/4-19-lizard.jpg); }
+    .fly figure { background-image: url(~@/assets/img/slides/slides-lg/4-20-fly.jpg); }
+    .cetacean figure { background-image: url(~@/assets/img/slides/slides-lg/4-21-cetacean.jpg); }
+    .whale figure { background-image: url(~@/assets/img/slides/slides-lg/4-22-whale.jpg); }
+    .fish figure { background-image: url(~@/assets/img/slides/slides-lg/4-23-fish.jpg); }
+    .frog figure { background-image: url(~@/assets/img/slides/slides-lg/4-24-frog.jpg); }
 
-    .sheep figure { background-image: url(../../assets/img/slides/slides-lg/5-01-sheep.jpg); }
-    .cows figure { background-image: url(../../assets/img/slides/slides-lg/5-02-cows.jpg); }
-    .pigs figure { background-image: url(../../assets/img/slides/slides-lg/5-03-pigs.jpg); }
-    .hippo figure { background-image: url(../../assets/img/slides/slides-lg/5-04-hippo.jpg); }
-    .camel figure { background-image: url(../../assets/img/slides/slides-lg/5-05-camel.jpg); }
-    .horses figure { background-image: url(../../assets/img/slides/slides-lg/5-06-horses.jpg); }
-    .mule figure { background-image: url(../../assets/img/slides/slides-lg/5-07-mule.jpg); }
-    .donkey figure { background-image: url(../../assets/img/slides/slides-lg/5-08-donkey.jpg); }
-    .bull figure { background-image: url(../../assets/img/slides/slides-lg/5-09-bull.jpg); }
-    .girafe figure { background-image: url(../../assets/img/slides/slides-lg/5-10-girafe.jpg); }
-    .deer figure { background-image: url(../../assets/img/slides/slides-lg/5-11-deer.jpg); }
-    .elephant figure { background-image: url(../../assets/img/slides/slides-lg/5-12-elephant.jpg); }
-    .lion figure { background-image: url(../../assets/img/slides/slides-lg/5-13-lion.jpg); }
-    .bear figure { background-image: url(../../assets/img/slides/slides-lg/5-14-bear.jpg); }
-    .wolf figure { background-image: url(../../assets/img/slides/slides-lg/5-15-wolf.jpg); }
-    .fox figure { background-image: url(../../assets/img/slides/slides-lg/5-16-fox.jpg); }
-    .greyhound figure { background-image: url(../../assets/img/slides/slides-lg/5-17-greyhound.jpg); }
-    .cat figure { background-image: url(../../assets/img/slides/slides-lg/5-18-cat.jpg); }
+    .sheep figure { background-image: url(~@/assets/img/slides/slides-lg/5-01-sheep.jpg); }
+    .cows figure { background-image: url(~@/assets/img/slides/slides-lg/5-02-cows.jpg); }
+    .pigs figure { background-image: url(~@/assets/img/slides/slides-lg/5-03-pigs.jpg); }
+    .hippo figure { background-image: url(~@/assets/img/slides/slides-lg/5-04-hippo.jpg); }
+    .camel figure { background-image: url(~@/assets/img/slides/slides-lg/5-05-camel.jpg); }
+    .horses figure { background-image: url(~@/assets/img/slides/slides-lg/5-06-horses.jpg); }
+    .mule figure { background-image: url(~@/assets/img/slides/slides-lg/5-07-mule.jpg); }
+    .donkey figure { background-image: url(~@/assets/img/slides/slides-lg/5-08-donkey.jpg); }
+    .bull figure { background-image: url(~@/assets/img/slides/slides-lg/5-09-bull.jpg); }
+    .girafe figure { background-image: url(~@/assets/img/slides/slides-lg/5-10-girafe.jpg); }
+    .deer figure { background-image: url(~@/assets/img/slides/slides-lg/5-11-deer.jpg); }
+    .elephant figure { background-image: url(~@/assets/img/slides/slides-lg/5-12-elephant.jpg); }
+    .lion figure { background-image: url(~@/assets/img/slides/slides-lg/5-13-lion.jpg); }
+    .bear figure { background-image: url(~@/assets/img/slides/slides-lg/5-14-bear.jpg); }
+    .wolf figure { background-image: url(~@/assets/img/slides/slides-lg/5-15-wolf.jpg); }
+    .fox figure { background-image: url(~@/assets/img/slides/slides-lg/5-16-fox.jpg); }
+    .greyhound figure { background-image: url(~@/assets/img/slides/slides-lg/5-17-greyhound.jpg); }
+    .cat figure { background-image: url(~@/assets/img/slides/slides-lg/5-18-cat.jpg); }
 
-    .crocodile figure { background-image: url(../../assets/img/slides/slides-lg/6-01-crocodile.jpg); }
-    .komodo-dragon figure { background-image: url(../../assets/img/slides/slides-lg/6-02-komodo-dragon.jpg); }
-    .snake figure { background-image: url(../../assets/img/slides/slides-lg/6-03-snake.jpg); }
-    .scorpion figure { background-image: url(../../assets/img/slides/slides-lg/6-04-scorpion.jpg); }
-    .snail figure { background-image: url(../../assets/img/slides/slides-lg/6-05-snail.jpg); }
-    .ants figure { background-image: url(../../assets/img/slides/slides-lg/6-06-ants.jpg); }
-    .mouse figure { background-image: url(../../assets/img/slides/slides-lg/6-07-mouse.jpg); }
-    .rat figure { background-image: url(../../assets/img/slides/slides-lg/6-08-rat.jpg); }
-    .dogs figure { background-image: url(../../assets/img/slides/slides-lg/6-09-dogs.jpg); }
+    .crocodile figure { background-image: url(~@/assets/img/slides/slides-lg/6-01-crocodile.jpg); }
+    .komodo-dragon figure { background-image: url(~@/assets/img/slides/slides-lg/6-02-komodo-dragon.jpg); }
+    .snake figure { background-image: url(~@/assets/img/slides/slides-lg/6-03-snake.jpg); }
+    .scorpion figure { background-image: url(~@/assets/img/slides/slides-lg/6-04-scorpion.jpg); }
+    .snail figure { background-image: url(~@/assets/img/slides/slides-lg/6-05-snail.jpg); }
+    .ants figure { background-image: url(~@/assets/img/slides/slides-lg/6-06-ants.jpg); }
+    .mouse figure { background-image: url(~@/assets/img/slides/slides-lg/6-07-mouse.jpg); }
+    .rat figure { background-image: url(~@/assets/img/slides/slides-lg/6-08-rat.jpg); }
+    .dogs figure { background-image: url(~@/assets/img/slides/slides-lg/6-09-dogs.jpg); }
 }
 /* SLIDES */
 

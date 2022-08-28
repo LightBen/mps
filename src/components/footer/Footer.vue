@@ -1,5 +1,5 @@
 <template>
-    <v-footer fixed height="auto" dark>
+    <v-footer fixed height="auto" dark style="display: none !important;">
         <v-card class="flex" flat tile>
             <v-card-title class="card-title">
                 <!-- <v-select :items="chapters" label="Chapters"></v-select> -->

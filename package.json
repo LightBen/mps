@@ -1,6 +1,6 @@
 {
-  "name": "mps",
-  "version": "0.1.0",
+  "name": "My Perek Shira",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,6 +9,7 @@
   "dependencies": {
     "register-service-worker": "^1.7.2",
     "vue": "^2.6.12",
+    "vue-i18n": "^8.27.2",
     "vue-router": "^3.5.1",
     "vue-slick": "^1.1.16",
     "vuetify": "^1.5.24"
@@ -20,6 +21,7 @@
     "jquery": "^3.6.0",
     "material-design-icons-iconfont": "^4.0.5",
     "node-sass": "^4.14.1",
+    "resolve-url-loader": "^5.0.0",
     "sass-loader": "^7.3.1",
     "stylus": "^0.54.8",
     "stylus-loader": "^3.0.1",

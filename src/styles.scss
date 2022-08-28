@@ -1,8 +1,72 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
 
 * { box-sizing: border-box; }
-html { height: 100vh; overflow: hidden; }
-body { font-family: 'Raleway', sans-serif; font-weight: 300; margin: 0; }
+
+:root {
+    --headerHeight: 56px;
+    --footerHeight: 64px;
+
+    @media (min-width: 960px) {
+        --headerHeight: 64px;
+        --footerHeight: 64px;    
+    }
+}
+
+// html { }
+body {
+    width: 100vw; height: 100vh; overflow: hidden; font-family: 'Raleway', sans-serif; font-weight: 300; margin: 0; 
+    .slick-prev, .slick-next {
+        --sizeX: 25px;
+        --sizeY: 50px;
+        top: calc(50% - (var(--sizeY) / 2) + var(--headerHeight));
+        width: var(--sizeX);
+        height: var(--sizeY);
+        background-color: rgba(0, 0, 0, .5) !important;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .2s ease-in-out;
+
+        &::before {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 50px;
+            line-height: 1;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .2s ease-in-out;
+            position: relative;
+            top: -4px;
+        }
+
+        &:hover {
+            background-color: rgba(0, 0, 0, .6);
+            &::before {
+                opacity: 1;
+            }
+        }
+
+        @media (min-width: 768px) {
+            --sizeX: 40px;
+            --sizeY: 80px;    
+        }
+    }
+    .slick-prev {
+        left: 0;
+
+        &::before {
+            content: "‹";
+        }
+    }
+    .slick-next {
+        right: 0;
+        &::before {
+            content: "›";
+        }
+    }
+}
 
 @font-face {
     font-family: 'Shofar';
@@ -20,3 +84,12 @@ body { font-family: 'Raleway', sans-serif; font-weight: 300; margin: 0; }
 /* LANGUAGES */
 
 .btn-auto { min-width: auto; margin: 0; }
+
+.slide {
+    padding-top: var(--headerHeight);
+    // padding-bottom: var(--footerHeight);
+}
+
+.no-lang-desc .text-desc, .no-lang-title .text-title.en, .no-lang-title .text-title.fr, .chapter .text-title.en, .chapter .text-title.fr {
+    display: none !important;
+}
